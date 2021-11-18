@@ -1,0 +1,11 @@
+{
+  "name": "devtube",
+  "version": "1.0.0",
+  "description": "The One Place for All Coders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratyush3",
+  "license": "ISC"
+}
