@@ -33,9 +33,46 @@ nav ul li{
 }
 nav ul li:hover{
     cursor: pointer;
+    color: grey;
+}
+.intro{
+    font-family: 'Fira Code', monospace;
+    font-size: large;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(77, 23, 23);
+    text-align: center;
+    border-top: 10%;
+}
+.para{
+    font-family: 'Fira Code', monospace;
+    font-size: large;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(77, 23, 23);
+    text-align: center;
+    
 }
 /* .logo image{
     width: 10px;
     height: 10px;
     margin-left: 5px;
 } */
+footer{
+    position: 100px;
+}
+footer h3{
+    /* background-color: #343A40; */
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    width: 100%;
+    color: #343A40;
+}
+.middle{
+    display: inline-flex;
+    border: 1px solid black;
+}
+.videos{
+    display: inline-block;
+    border: 1px solid black;
+}
