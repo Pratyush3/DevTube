@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-*,*::before,*::after{
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*,*::before,*::after {
+     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-}
+} 
 :root{
     --bg-clr: #fff;
-    --font-family: 'Fira Code', monospace;
-    --navbar-bg-hover: rgb(244,244,244);
-}
-body{
+    --font-family: 'Titillium Web', sans-serif;
+    --navbar-bg-hover: rgb(244, 244, 244);
+    --nav-load-time: 300ms;
+} 
+body {
     margin: 0;
     font-family: var(--font-family);
     font-size: 1rem;
@@ -17,24 +18,26 @@ body{
     color: #212529;
     text-align: left;
     background-color: var(--bg-clr);
-}
+}   
 nav{
     display: block;
 }
+    
 a{
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
 }
+    
 span{
     color: #a3cb4c;
     position: relative;
-}
+}  
 i{
     position: absolute;
     top: -8px;
     left: -3px;
-}
+}   
 button,input{
     border-radius: 0;
     margin: 0;
@@ -43,15 +46,23 @@ button,input{
     line-height: inherit;
     overflow: visible;
     text-transform: none;
-}
-button, [type="button"], [type="reset"], [type="submit"] {
+}    
+button,
+[type="button"],
+[type="reset"],
+[type="submit"]{
     -webkit-appearance: button;
-}
+}   
 ul{
     margin-top: 0;
     margin-bottom: 1rem;
-}
-h1,h2,h3,h4,h5,h6{
+}   
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.8);
     font-weight: 400;
@@ -61,11 +72,28 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
+}   
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section{
+    display: block;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-	display: block;
-}
-p {
-	margin-top: 0;
-	margin-bottom: 1rem;
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}   
+#preloader{
+    background: #FBFBFB url(../Images/loader.gif) no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width:100%;
+    position: fixed;
+    z-index: 100;
 }
