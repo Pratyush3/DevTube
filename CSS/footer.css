@@ -1,0 +1,92 @@
+.footer {
+    background: #131719;
+}
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.col-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+.col-10,.col-lg-6,.col-md-4,.col-lg-5,.col-md-12,.col-lg-8,.col-md-8,.col-lg-7,.col-md-3,.col-md-6,.col-lg-8,.col-lg-4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.footer .footer-heading {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+.footer .footer-heading .logo {
+    font-weight: 600;
+    color: #fff;
+}
+.footer a {
+    color: #1089ff;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.3);
+}
+.footer .border-left {
+    border-color: rgba(255, 255, 255, 0.05) !important;
+}
+.border-left {
+    border-left: 1px solid #dee2e6 !important;
+    
+}
+.footer .footer-heading {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footer .list-unstyled li a {
+    color: rgba(255, 255, 255, 0.4);
+}
+.footer .list-unstyled a {
+    color: rgba(255, 255, 255, 0.4);
+}
+.footer a {
+    color: #1089ff;
+}
+.pb-1, .py-1 {
+    padding-bottom: 0.25rem !important;
+}
+.pt-1, .py-1 {
+    padding-top: 0.25rem !important;
+}
+.d-block {
+    display: block !important;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+.footer .copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+.footer .list-unstyled a {
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 10px;
+}
+.move-right{
+margin-left: 49%;
+}
