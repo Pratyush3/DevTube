@@ -6,40 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevTube</title>
-    <link rel="icon" href="./Images/circle-play-solid.svg">
+    <link rel="icon" href="./Images/icong.png">
     <link rel="stylesheet" href="./CSS/main.css">
     <link rel="stylesheet" href="./CSS/navbar.css">
     <link rel="stylesheet" href="./CSS/index/intro.css">
+    <link rel="stylesheet" href="./CSS/index/pop-up-programs.css">
+
+
 </head>
 
 <body>
+    <!-- Loading Animation -->
     <div id="preloader"></div>
+    <!-- Header containing only navbar -->
     <header>
         <nav class="navbar navbar-expand navbar-light ">
             <div class="container ">
-                <a href="index.html " class="brand-logo " id="brand-logo ">Dev<span>Tube</span></a>
-                <button class="navbar-toggle " id="toggle-button " type="button " data-toggle="collapse " data-target=".collapse " aria-controls="collapse " aria-expanded="false " aria-label="Toggle navigation ">
+                <a href="index.html" class="brand-logo" id="brand-logo">Dev<span>Tube</span></a>
+                <button class="navbar-toggle " id="toggle-button " type="button " data-toggle="collapse "
+                    data-target=".collapse " aria-controls="collapse " aria-expanded="false "
+                    aria-label="Toggle navigation ">
                     <span class="fa fa-bars "></span> Menu
                 </button>
-                <div class="navelems collapse " id="collapse ">
-                    <ul class="nav-list ">
-                        <li class="active "><a href="# " class="nav-items ">Home</a></li>
-                        <li><a href="./HTML/courses.html " class="nav-items ">Courses</a></li>
-                        <li><a href="./HTML/codesolve.html " class="nav-items ">CodeSolve</a></li>
-                        <li><a href="./HTML/profile.html " class="nav-items ">Profile</a></li>
+                <div class="navelems collapse" id="collapse">
+                    <ul class="nav-list">
+                        <li class="active"><a href="# " class="nav-items">Home</a></li>
+                        <li><a href="./HTML/courses.html " class="nav-items">Courses</a></li>
+                        <li><a href="./HTML/codesolve.html " class="nav-items">CodeSolve</a></li>
+                        <li><a href="./HTML/blog.html " class="nav-items">Blog</a></li>
+                        <li><a href="./HTML/profile.html " class="nav-items">Profile</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="img-wrap img-height ">
+    <!-- Landing Page Intro with image  -->
+    <div class="img-wrap img-height">
         <div class="home-img img-height ">
             <div class="slider-img img-height " style="background-image:url(Images/Intro-back.jpg); ">
                 <div class="overlay "></div>
                 <div class="container ">
                     <div class="row slider-text align-center ">
                         <div class="column-adjust">
-                            <div class="text w-100 ">
+                            <div class="text">
                                 <h2>Welcome to DevTube</h2>
                                 <h1 class="slider-text-color ">Learn to Code, Fast and Effectively</h1>
                                 <p>
@@ -51,10 +60,44 @@
                     </div>
                 </div>
             </div>
-            <script src="./JS/navbar.js"></script>
-            <script src="./JS/script.js"></script>
-            <script src="https://kit.fontawesome.com/5b6b2e1b44.js " crossorigin="anonymous "></script>
-            
+        </div>
+    </div>
+
+    <!-- Adding Card Templates -->
+    <section class="ftco-section ftco-services">
+        <div class="container">
+            <div class="row">
+                <div class="column-adjust d-flex services align-self-stretch px-4 ftco-animate">
+                    <div class="d-block services-wrap text-center">
+                        <div class="img" style="background-image: url(./Images/developer-3461405_1920.png);"></div>
+                        <div class="media-body p-2 mt-3">
+                            <h3 class="heading">Start From Scratch</h3>
+                            <p class="service-explanation">Even the best started from Scratch. Why won't you?</p>
+                            <p><a href="./HTML/courses.html"
+                                    class=" btn-courses btn btn-primary btn-outline-primary">Begin</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column-adjust d-flex services align-self-stretch px-4 ftco-animate">
+            <div class="d-block services-wrap text-center">
+                <div class="img" style="background-image: url(./Images/work-4997565_1280.png);"></div>
+                <div class="media-body p-2 mt-3">
+                    <h3 class="heading">Want a Community?</h3>
+                    <p class="service-explanation">Take a visit at our blog and learn from others</p>
+                    <p><a href="./HTML/blog.html" class=" btn-blog btn btn-primary btn-outline-primary">Visit Blog</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./JS/navbar.js"></script>
+    <script src="./JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/5b6b2e1b44.js " crossorigin="anonymous"></script>
+
 </body>
 
 </html>

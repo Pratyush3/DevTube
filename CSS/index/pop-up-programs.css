@@ -1,0 +1,98 @@
+.ftco-section {
+	padding: 1em 0;
+	position: relative;
+}
+.row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.services {
+	display: block;
+	width: 100%;
+	position: relative;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.pl-4, .px-4 {
+	padding-left: 1.5rem !important;
+}
+.pr-4, .px-4 {
+	padding-right: 1.5rem !important;
+}
+.align-self-stretch {
+	-ms-flex-item-align: stretch !important;
+	-ms-grid-row-align: stretch !important;
+	align-self: stretch !important;
+}
+.d-flex {
+	display: flex !important;
+}
+.column-adjust{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.services .services-wrap {
+	width: 100%;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 10px 27px -9px rgba(0, 0, 0, 0.11);
+	-moz-box-shadow: 0px 10px 27px -9px rgba(0, 0, 0, 0.11);
+	box-shadow: 0px 10px 27px -9px rgba(0, 0, 0, 0.11);
+}
+.text-center {
+	text-align: center !important;
+}
+.d-block {
+	display: block !important;
+}
+.services .img {
+	height: 420px;
+    width: 100%;
+    object-fit: contain;
+}
+.img, .blog-img, .user-img {
+    padding: 2em,0;
+	width: 100%;
+    object-fit: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.p-2 {
+	padding: 0.5rem !important;
+}
+.mt-3, .my-3 {
+	margin-top: 1rem !important;
+}
+.media-body {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.services .media-body h3 {
+	font-weight: 100;
+	font-size: 2em;
+	color: #000000;
+}
+h3, .h3 {
+	font-size: 2em;
+}
+.service-explanation{
+    font-size: 1.75em;
+}
+.btn-blog , .btn-courses{
+    font-size: 1.2em;
+}

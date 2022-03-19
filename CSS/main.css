@@ -10,6 +10,7 @@
     --nav-load-time: 300ms;
 } 
 body {
+    padding: 0;
     margin: 0;
     font-family: var(--font-family);
     font-size: 1rem;
