@@ -191,11 +191,26 @@ p{
     .text-md-right {
         text-align: right !important;
     }
-    .col-md-6 {
+    .col-md-7 {
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
+        -ms-flex: 0 0 58.33333%;
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .blog-entry {
+        margin-bottom: 40px;
+    }
+    .col-md-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.66667%;
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .p-md-5 {
+        padding: 3rem !important;
+    }
+    .mt-md-0, .my-md-0 {
+        margin-top: 0 !important;
     }
 }
 @media (min-width: 576px){
