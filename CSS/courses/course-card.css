@@ -13,7 +13,7 @@
     font-size: 22px;
 }
 .footer{
-    margin-top: 72vh;
+    margin-top: 250vh;
 }
 .ftco-section{
     padding: 7em 0;
@@ -36,55 +36,31 @@
     left: 4vw;
 }
 .card-centre{
-    left: 43vw;
+    left: 37vw;
 }
 .card-right{
-    left: 20vw;
+    left: 72vw;
 }
-.card-js{
-    top: 11vw;     
+.card-html,.card-css,.card-js{
+    top: 20vh;     
 }
-.card-html{
-    top: 11vw;
+.card-C,.card-cpp,.card-csharp{
+    top: 90vh;
 }
-.card-css{
-    margin-bottom: -24rem;
-    top: -22.4rem;
+.card-java,.card-python,.card-webdev{
+    top: 160vh;
 }
-.card-C{
-    margin-bottom: -3rem;
-    top: 4rem;
-}
-.card-Cpp{
-    margin-bottom: -24rem;
-    top: -20.8rem;
-}
-.card-csharp{
-    margin-bottom: -26rem;
-    top: -24.5rem;
-}
-.card-java{
-    margin-bottom: -2rem;
-    top: 3.6rem;
-}
-.card-python{
-    margin-bottom: -24rem;
-    top: -22.1rem;
-}
-.card-webdev{
-    margin-bottom: -29rem;
-    top: -25.8rem;
-}
-/* .courses {
+
+ .courses {
     display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
 }
 .card {
-    flex: 0 1 calc(25% - 1em);
+    flex: 0 1 0;
 }
-@media screen and (min-width: 40em) {
+/*@media screen and (min-width: 40em) {
     .cards {
         display: flex;
         flex-wrap: wrap;
