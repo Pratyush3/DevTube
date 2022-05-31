@@ -1,22 +1,23 @@
-.card {
+.courses{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
+    margin-top: 1em;
+    margin-left: 3rem;
     text-align: center;
     width: 22vw;
-    position: absolute;
-    object-fit: contain;    
-}
-.price{
-    color: grey;
-    font-size: 22px;
-}
-.footer{
-    margin-top: 275rem;
-}
-.ftco-section{
-    padding: 7em 0;
+    object-fit: contain;
+    font-size: 1em;
 }
 .card button {
     border: none;
@@ -27,83 +28,8 @@
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.5em;
 }
 .card button:hover {
     opacity: 0.7;
-}
-.card-left{
-    left: 4vw;
-}
-.card-centre{
-    left: 37vw;
-}
-.card-right{
-    left: 72vw;
-}
-.card-html,.card-css,.card-js{
-    top: 20vh;     
-}
-.card-C,.card-cpp,.card-csharp{
-    top: 90vh;
-}
-.card-java,.card-python,.card-webdev{
-    top: 160vh;
-}
-.card-swift,.card-kotlin,.card-git{
-    top: 230vh;
-}
-.card-github,.card-nodejs,.card-ror{
-    top: 300vh;
-}
-.card-ai-ml,.card-server,.card-php{
-    top: 370vh;
-}
-.card-react,.card-angular,.card-next{
-    top: 440vh;
-}
-.card-win-d,.card-ad,.card-ios-d{
-    top: 510vh;
-}
-.card-dsa,.card-comp,.card-software{
-    top: 580vh;
-}
-.card-raspberry,.card-arduino,.card-hardware{
-    top: 650vh;
-}
- .courses {
-    display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   align-items: center;
-}
-.card {
-    flex: 0 1 calc(25% - 1em);
-}
-@media screen and (min-width: 40em) {
-    .courses {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
- 
-    .card {
-        flex: 0 1 calc(25% - 1em);
-    }
-}
-@media screen and (min-width: 60em) {
-    .card {
-        flex: 0 1 calc(25% - 1em);
-    }
-}
-@media screen and (min-width: 40em) {
-    .courses {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
- 
-    .card {
-        flex: 0 1 calc(50% - 1em);
-    }
 }
