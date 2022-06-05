@@ -2,71 +2,113 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevTube- Profile</title>
-    <link rel="icon" href="../Images/icong.png">
-    <link rel="stylesheet" href="../CSS/main.css">
-    <link rel="stylesheet" href="../CSS/navbar.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DevTube- Profile</title>
+	<link rel="icon" href="../Images/icong.png">
+	<link rel="stylesheet" href="../CSS/main.css">
+	<link rel="stylesheet" href="../CSS/navbar.css">
 	<link rel="stylesheet" href="../CSS/index/pop-up-programs.css">
 	<link rel="stylesheet" href="../CSS/index/intro.css">
 	<link rel="stylesheet" href="../CSS/footer.css">
+	<link rel="stylesheet" href="../CSS/profile/user.css">
+	<!-- <script src="https://kit.fontawesome.com/110c6f7c14.js" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
-    <div id="preloader"></div>
-    <nav class="navbar navbar-expand navbar-light">
-        <div class="container">
-            <a href="#" class="brand-logo" id="brand-logo">Dev<span>Tube</span></a>
-            <button class="toggle-button " id="toggle-button " type="button " data-toggle="collapse "
-                    data-target=".collapse " aria-controls="collapse " aria-expanded="false "
-                    aria-label="Toggle navigation ">
-                    <span class="fa fa-bars"></span> 
-                </button>
-            <div class="navelems collapse">
-                <ul class="nav-list">
-                    <li><a href="../index.html" class="nav-items">Home</a></li>
-                    <li><a href="./courses.html" class="nav-items">Courses</a></li>
-                    <li><a href="./codesolve.html" class="nav-items">CodeSolve</a></li>
-                    <li><a href="./blog.html" class="nav-items">Blog</a></li>
-                    <li class="active"><a href="./profile.html" class="nav-items">Profile</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-	<h1>My Profile</h1>
-	<div class="main-profile">
-		<div class="avatar"></div>
-		<div class="details">
-			<div class="name"></div>
-			<div class="current-courses"></div>
-			<div class="achivements"></div>
+	<div id="preloader"></div>
+	<nav class="navbar navbar-expand navbar-light">
+		<div class="container">
+			<a href="#" class="brand-logo" id="brand-logo">Dev<span>Tube</span></a>
+			<button class="toggle-button " id="toggle-button " type="button " data-toggle="collapse "
+				data-target=".collapse " aria-controls="collapse " aria-expanded="false "
+				aria-label="Toggle navigation ">
+				<span class="fa fa-bars"></span>
+			</button>
+			<div class="navelems collapse">
+				<ul class="nav-list">
+					<li><a href="../index.html" class="nav-items">Home</a></li>
+					<li><a href="./courses.html" class="nav-items">Courses</a></li>
+					<li><a href="./codesolve.html" class="nav-items">CodeSolve</a></li>
+					<li><a href="./blog.html" class="nav-items">Blog</a></li>
+					<li class="active"><a href="./profile.html" class="nav-items">Profile</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
-	<div class="account-details">
-		<div class="account-details-header">
-			<h2>Account Details</h2>
-		</div>
-		<div class="account-details-body">
-			<div class="account-details-body-item">
-				<div class="account-details-body-item-header">
-					<h3>Email</h3>
+	</nav>
+
+	<div class="container container-profile">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="imgBox">
+					<img src="../Images/icong.png" alt="image" width="100">
+				</div>	
+			</div>
+			<div class="col-sm-8">
+				<div class="contentBox">
+					<div class="headingBox">
+						<h1><strong>Alex Locatelli</strong></h1>
+						<h3><strong>UI designer</strong></h3>
+					</div>
+					<div class="about">
+						<h4>About Me</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quas voluptatum maiores temporibus nobis illum! Quae quam assumenda sapiente rem nulla sunt libero blanditiis repudiandae iusto tempora vel, eius laborum!</p>
+					</div>
 				</div>
-				<div class="account-details-body-item-body">
-					<p>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 mainSkillBox">
+					<div class="skillBox">
+						<div class="skills">
+							<p><strong>Creativity</strong></p>
+							<div class="upperBox">
+								<div class="creativity">80%</div>
+							</div>
+						</div>
+						<div class="skills">
+							<p><strong>Problem Solving</strong></p>
+							<div class="upperBox">
+								<div class="problemSolving">90%</div>
+							</div>
+						</div>
+						<div class="skills">
+							<p><strong>Approach</strong></p>
+							<div class="upperBox">
+								<div class="approach">85%</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-8 mediaBox">
+				<div class="followBtnGroup">
+					<buttton type="button"class="btn"><strong>Followers</strong><br><p>12.7k</p></buttton>
+					<buttton type="button"class="btn"><strong>Following</strong><br><p>38</p></buttton>
+					<buttton type="button"class="btn"><strong>+ Follow</strong></buttton>
+				</div>
+				<!-- <div class="contactBox">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-instagram"></i>
+				</div> -->
+			</div>
+		</div>
 	</div>
-    <footer class="footer">
+
+	<footer class="footer">
 		<div class="container">
 			<div class="row justify-content-center">
-				
+
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-lg-5">
 					<div class="row">
 						<div class="col-md-12 col-lg-8 mb-md-0 mb-4">
 							<h2 class="footer-heading"><a href="#" class="logo">Dev<span>Tube</span></a></h2>
-							<p>DevTube is a platform created to build of community of coders that teach an learn from each other</p>
+							<p>DevTube is a platform created to build of community of coders that teach an learn from
+								each other</p>
 						</div>
 					</div>
 				</div>
@@ -75,42 +117,43 @@
 						<div class="col-md-3 mb-md-0 mb-4 border-left move-right">
 							<h2 class="footer-heading">DevTube</h2>
 							<ul class="list-unstyled">
-				  <li><a href="./courses.html" class="py-1 d-block">Learn</a></li>
-				  <li><a href="./codesolve.html" class="py-1 d-block">Practice</a></li>
-				  <li><a href="./teach.html" class="py-1 d-block">Teach</a></li>
-				</ul>
+								<li><a href="./courses.html" class="py-1 d-block">Learn</a></li>
+								<li><a href="./codesolve.html" class="py-1 d-block">Practice</a></li>
+								<li><a href="./teach.html" class="py-1 d-block">Teach</a></li>
+							</ul>
 						</div>
 						<div class="col-md-3 mb-md-0 mb-4 border-left">
 							<h2 class="footer-heading">Connect</h2>
 							<ul class="list-unstyled">
-				  <li><a href="./career.html" class="py-1 d-block">Careers</a></li>
-				  <li><a href="./blog.html" class="py-1 d-block">Blog</a></li>
-				</ul>
+								<li><a href="./career.html" class="py-1 d-block">Careers</a></li>
+								<li><a href="./blog.html" class="py-1 d-block">Blog</a></li>
+							</ul>
 						</div>
-						
-						
+
+
 					</div>
 				</div>
 			</div>
 			<div class="row mt-5">
-	  <div class="col-md-6 col-lg-8">
+				<div class="col-md-6 col-lg-8">
 
-		<p class="copyright">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Devtube.com</a>
-</p>
-	  </div>
-	  <div class="col-md-6 col-lg-4 text-md-right">
-		  <p class="mb-0 list-unstyled">
-			  <a class="mr-md-3" href="#">Terms</a>
-			  <a class="mr-md-3" href="#">Privacy</a>
-		  </p>
-	  </div>
-	</div>
+					<p class="copyright">
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | Devtube.com</a>
+					</p>
+				</div>
+				<div class="col-md-6 col-lg-4 text-md-right">
+					<p class="mb-0 list-unstyled">
+						<a class="mr-md-3" href="#">Terms</a>
+						<a class="mr-md-3" href="#">Privacy</a>
+					</p>
+				</div>
+			</div>
 		</div>
 	</footer>
-    <script src="../JS/navbar.js"></script>
-    <script src="../JS/script.js"></script>
-    <script src="https://kit.fontawesome.com/5b6b2e1b44.js" crossorigin="anonymous"></script>
+	<script src="../JS/navbar.js"></script>
+	<script src="../JS/script.js"></script>
+	<script src="https://kit.fontawesome.com/5b6b2e1b44.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

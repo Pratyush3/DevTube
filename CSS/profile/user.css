@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+--root{
+  --text-clr:#7ac308;
+}
+.col-sm-4{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.col-sm-8{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 66.66667%;
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+.col-sm-4,.col-sm-8{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container-profile{
+  margin-top: 4%;
+}
+.container .row .col-sm-4{
+  padding: 2%;
+}
+.container .row .col-sm-4 .imgBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container .row .col-sm-4 .imgBox img{
+  width: 250px;
+  height: 270px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 40px 40px 10px rgba(0, 0, 0, 0.4);
+}
+.container .row .col-sm-8 .contentBox{
+  padding-top: 3%;
+}
+.container .row .col-sm-8 .contentBox .headingBox h1{
+  font-size: 50px;
+  color: var(--text-clr);
+}
+.container .row .col-sm-8 .contentBox .headingBox h3{
+  color: var(--text-clr);
+}
+.container .row .col-sm-8 .contentBox .about{
+  margin-top: 4%;
+}
+.container .row .col-sm-8 .contentBox .about h4{
+ color: var(--text-clr);  
+}
+.container .row .mainSkillBox .skillBox .skills{
+  margin-top: 7%;
+}
+.container .row .mainSkillBox .skillBox .skills p{
+  color: var(--text-clr); 
+}
+.container .row .mainSkillBox .skillBox .skills .upperBox{
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+}
+.container .row .mainSkillBox .skillBox .skills .upperBox .creativity{
+  width: 87%;
+  background-color: var(--text-clr);
+  text-align: right;
+  border: none;
+  border-radius: 30px;
+}
+.container .row .mainSkillBox .skillBox .skills .upperBox .problemSolving{
+  width: 90%;
+  background-color: var(--text-clr);
+  text-align: right;
+  border: none;
+  border-radius: 30px;
+}
+.container .row .mainSkillBox .skillBox .skills .upperBox .approach{
+  width: 73%;
+  background-color: var(--text-clr);
+  text-align: right;
+  border: none;
+  border-radius: 30px;
+}
