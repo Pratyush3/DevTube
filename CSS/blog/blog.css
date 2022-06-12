@@ -1,0 +1,230 @@
+.hero-wrap.hero-wrap-2 {
+    height: 400px;
+}
+@media (max-width: 1199.98px){
+
+    .hero-wrap {
+        background-position: center center !important;
+    }
+}
+.hero-wrap {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+.hero-wrap.hero-wrap-2 .overlay {
+    opacity: .4;
+}
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #000000;
+}
+.hero-wrap.hero-wrap-2 .slider-text {
+    height: 400px;
+}
+.align-items-end {
+    -webkit-box-align: end !important;
+    -ms-flex-align: end !important;
+    align-items: flex-end !important;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+@media (min-width: 992px){
+    
+    .col-lg-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+}
+@media (min-width: 768px){
+    
+    .blog-entry {
+        margin-bottom: 40px;
+    }
+}
+.align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    -ms-grid-row-align: stretch !important;
+    align-self: stretch !important;
+}
+.block-20.img-2 {
+    height: 350px;
+}
+.block-20 {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    position: relative;
+    display: block;
+}
+.rounded {
+    border-radius: 0.25rem !important;
+}
+.blog-entry .text {
+    position: relative;
+    border-top: 0;
+    border-radius: 2px;
+}
+.mt-3, .my-3 {
+    margin-top: 1rem !important;
+}
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+}
+.blog-entry .meta > div {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.blog-entry .meta > div a {
+    color: #999999;
+    font-weight: 400;
+}
+.blog-entry .text .meta-chat {
+    color: #a3cb4c;
+}
+.blog-entry .text .heading a {
+    color: #000000;
+}
+.blog-entry .text .heading a:hover {
+    color: #a3cb4c;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.blog-entry .text p{
+    color: #999999;
+
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.block-27 ul {
+    padding: 0;
+    margin: 0;
+}
+.block-27 ul li {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+.block-27 ul li a, .block-27 ul li span {
+    color: gray;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e6e6e6;
+}
+.block-27 ul li.active a, .block-27 ul li.active span {
+    background: #a3cb4c;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.sidebar-box {
+    margin-bottom: 40px;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+.sidebar-box *:last-child {
+    margin-bottom: 0;
+}
+.search-form .form-group {
+    position: relative;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.search-form .fa {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.search-form .form-group input {
+    padding-right: 50px;
+    font-size: 14px;
+}
+.sidebar-box *:last-child {
+    margin-bottom: 0;
+}
+.form-control {
+    height: 52px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.sidebar-box h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.tagcloud a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 4px 10px;
+    margin-bottom: 7px;
+    margin-right: 4px;
+    border-radius: 4px;
+    color: #000000;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.tagcloud a:hover{
+    border: 1px solid black;
+}

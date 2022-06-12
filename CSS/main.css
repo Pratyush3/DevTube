@@ -54,15 +54,15 @@ button,
 [type="reset"],
 [type="submit"]{
     -webkit-appearance: button;
-}   
-ul{
-    margin-top: 0;
-    margin-bottom: 1rem;
-} 
+}    
 li {
     display: list-item;
     text-align: -webkit-match-parent;
 }  
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
 h1,
 h2,
 h3,
@@ -150,6 +150,9 @@ p{
         -ms-flex: 0 0 33.33333%;
         flex: 0 0 33.33333%;
         max-width: 33.33333%;
+    }
+    .pl-lg-5, .px-lg-5 {
+        padding-left: 3rem !important;
     }
 }
 @media (min-width: 768px){
